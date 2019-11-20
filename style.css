@@ -1,9 +1,21 @@
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 .head{
 	width:600px;
-	height:600px;
+  height:600px;
+  margin: 0 auto;
 	border-radius:100%;
 	background:#3c9dca;
 	border: black solid thick;
+}
+.text{
+  text-align: center;
+  margin-top: 15px;
+  color: #3d9cca;
 }
 .white{
 width: 524px;
